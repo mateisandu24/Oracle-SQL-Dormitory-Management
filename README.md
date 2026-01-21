@@ -1,14 +1,14 @@
-# 🏢 ASE Dormitory Management System (Oracle SQL)
+# ASE Dormitory Management System (Oracle SQL)
 
 This repository contains the final project developed for the **Databases** course (Year 2, Semester 1). The project consists of a complex relational database designed to manage the dormitory network of the Bucharest University of Economic Studies (ASE).
 
 > **Note:** While the dormitory structure reflects public data, **all personal data (students, staff, IDs) are 100% fictional**, randomly generated strictly for educational purposes.
 
-## 🛠️ Technologies & Concepts
+## Technologies & Concepts
 * **Platform:** Oracle Database (PL/SQL)
 * **Features:** DDL, DML, Views, Triggers, Sequences, System Functions, Complex Joins, Correlated Subqueries.
 
-## 📋 Project Description
+## Project Description
 
 The goal of this project was to simulate real-world workflows within a university campus, covering:
 
@@ -31,11 +31,5 @@ The script includes complex queries to answer business questions, such as:
 * Automatic room assignment algorithms based on gender and preferences.
 * Employee salary rankings and student generation analysis using analytical functions (`DENSE_RANK`, `PARTITION BY`).
 
-## 🚀 Installation & Usage
 
-1. This project requires an Oracle Database environment (or Oracle APEX).
-2. Download the `.sql` file from this repository.
-3. Run the script entirely. It includes `DROP` statements at the beginning to clean the environment, so it can be re-run multiple times without duplication errors.
-
----
 *Project created by Sandu Matei, Group 1059*
